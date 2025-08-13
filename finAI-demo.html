@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Fin.ai Demo WebChat&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 100px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f5f7fa;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #2c3e50;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 2.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Fin.ai Demo WebChat&lt;/h1&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Intercom Settings --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.intercomSettings = {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>api_base: "https://api-iam.intercom.io",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>app_id: "vuyqzrh8",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Intercom Widget Loader --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/vuyqzrh8'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>(function(){</p>
+<p class="p1"><span class="Apple-converted-space">            </span>var w = window;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>var ic = w.Intercom;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (typeof ic === "function") {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>ic("reattach_activator");</p>
+<p class="p1"><span class="Apple-converted-space">                </span>ic("update", w.intercomSettings);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>var d = document;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>var i = function(){ i.c(arguments); };</p>
+<p class="p1"><span class="Apple-converted-space">                </span>i.q = [];</p>
+<p class="p1"><span class="Apple-converted-space">                </span>i.c = function(args){ i.q.push(args); };</p>
+<p class="p1"><span class="Apple-converted-space">                </span>w.Intercom = i;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>var l = function(){</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>var s = d.createElement("script");</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>s.type = "text/javascript";</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>s.async = true;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>s.src = "https://widget.intercom.io/widget/vuyqzrh8";</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>var x = d.getElementsByTagName("script")[0];</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>x.parentNode.insertBefore(s, x);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (document.readyState === "complete") {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>l();</p>
+<p class="p1"><span class="Apple-converted-space">                </span>} else if (w.attachEvent) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>w.attachEvent("onload", l);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>w.addEventListener("load", l, false);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>})();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
